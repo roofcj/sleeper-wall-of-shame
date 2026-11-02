@@ -29,6 +29,28 @@ main{padding:32px 0 60px}.stats{display:grid;grid-template-columns:repeat(4,1fr)
 .share-button:disabled{opacity:.5;cursor:not-allowed}
 .share-status{font-size:12px;color:var(--green);min-height:18px}
 
+
+/* Current-week spotlight: show only the active Sleeper week, never last week's results */
+.week-spotlight{margin-bottom:20px;border:1px solid #67404e;border-radius:16px;background:linear-gradient(125deg,#25202c 0%,#191f2d 70%);overflow:hidden}
+.week-spotlight-head{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:23px 24px 19px}
+.week-spotlight h2{font-size:clamp(23px,3vw,30px);font-weight:850;letter-spacing:-.04em;margin:6px 0 0}
+.week-spotlight-head .hint{margin-top:7px}
+.week-spotlight-kicker{color:var(--amber)}
+.week-badges{display:flex;gap:8px;flex-wrap:wrap}
+.week-count{border:1px solid #6a4953;color:#f6d7dc;background:#402733;border-radius:9px;padding:10px 13px;font-size:13px;font-weight:800}
+.week-count.zero-count{background:#342b23;border-color:#675038;color:#ffe0aa}
+.week-bust{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;align-items:center;gap:16px;border-top:1px solid #3b3443;padding:17px 24px;background:rgba(12,17,28,.28)}
+.week-bust-player{font-size:15px;font-weight:800;overflow-wrap:anywhere}
+.week-bust-detail{font-size:12px;line-height:1.5;color:var(--mute);margin-top:3px;overflow-wrap:anywhere}
+.week-bust-team{font-weight:700;font-size:14px;overflow-wrap:anywhere}
+.week-bust-points{text-align:right;font-size:23px;font-weight:900;white-space:nowrap;font-variant-numeric:tabular-nums}
+.week-bust-points.negative{color:var(--red)}
+.week-bust-points.zero{color:var(--amber)}
+.week-bust-empty{border-top:1px solid #3b3443;padding:24px;color:#bac6d6;font-size:14px}
+.week-spotlight-foot{padding:12px 24px;border-top:1px solid #3b3443;font-size:12px;color:var(--mute)}
+.week-spotlight-foot a{font-weight:700}
+@media(max-width:620px){.week-spotlight-head{padding:20px 17px 16px}.week-bust{grid-template-columns:minmax(0,1fr) auto;gap:5px 12px;padding:15px 17px}.week-bust-team-wrap{grid-column:1;grid-row:2}.week-bust-points{grid-column:2;grid-row:1/span 2;align-self:center}.week-spotlight-foot{padding:12px 17px}}
+
 </style>
 </head>
 <body>
@@ -41,6 +63,23 @@ main{padding:32px 0 60px}.stats{display:grid;grid-template-columns:repeat(4,1fr)
   <div class="demo" id="demoBanner" hidden>PREVIEW ONLY — all managers, players, and scores on this page are fictional. Run <b>tracker.py</b> with your Sleeper league ID for real results.</div>
 </header>
 <main>
+
+<section class="week-spotlight" aria-label="Current week's zero and negative starters">
+  <div class="week-spotlight-head">
+    <div>
+      <div class="section-kicker week-spotlight-kicker">🚨 &nbsp;<span id="this-week-label">Current week</span></div>
+      <h2>This Week's Wall of Shame</h2>
+      <p class="hint">Starting lineup busts from NFL games that have officially finished. Updates automatically as results come in.</p>
+    </div>
+    <div class="week-badges" aria-label="Current week totals">
+      <span class="week-count zero-count" id="this-week-zeros">🥚 0 zeroes</span>
+      <span class="week-count" id="this-week-negatives">💀 0 negatives</span>
+    </div>
+  </div>
+  <div id="this-week-results" class="week-results"></div>
+  <div class="week-spotlight-foot">Only <strong>this week's</strong> qualifying starters appear here. <a href="#season-results">Browse every week's results ↓</a></div>
+</section>
+
 <section class="stats" aria-label="Season totals">
   <article class="stat"><div class="name">Total shameful starts</div><div class="num" id="total">0</div><div class="note">Across this season</div></article>
   <article class="stat amber"><div class="name">Zero-point starters</div><div class="num" id="zeros">0</div><div class="note">Exactly 0.00 points</div></article>
@@ -65,7 +104,7 @@ main{padding:32px 0 60px}.stats{display:grid;grid-template-columns:repeat(4,1fr)
   <article class="panel"><div class="panel-head"><div><div class="section-kicker">All season long</div><h2>Shame leaderboard</h2><p class="hint">One qualifying starter = one mark. Ties favor more negative scores.</p></div><span class="badge-inline">Ranked</span></div><div id="leaders"></div></article>
   <article class="panel"><div class="panel-head"><div><div class="section-kicker">Week by week</div><h2>Busts over time</h2><p class="hint">Zero and negative starts combined.</p></div></div><div class="weekly" id="weeks"></div></article>
 </section>
-<section class="panel results" aria-label="Individual zero and negative scores"><div class="panel-head"><div><div class="section-kicker">Every guilty starter</div><h2>Player bust log</h2><p class="hint">Filter any week, manager, or score type. Data reflects completed NFL games.</p></div><span class="badge-inline" id="result-count">0 results</span></div>
+<section class="panel results" id="season-results" aria-label="Individual zero and negative scores"><div class="panel-head"><div><div class="section-kicker">Every guilty starter</div><h2>Player bust log</h2><p class="hint">Filter any week, manager, or score type. Data reflects completed NFL games.</p></div><span class="badge-inline" id="result-count">0 results</span></div>
   <div class="toolbar"><select id="week-filter" aria-label="Filter by week"></select><select id="type-filter" aria-label="Filter score type"><option value="all">All scores</option><option value="negative">Negative only</option><option value="zero">Zero only</option></select><input id="search-filter" type="search" placeholder="Search player, team, or manager…" aria-label="Search results"></div>
   <div class="table-scroll"><table><thead><tr><th>Week</th><th>Player</th><th>Manager / fantasy team</th><th>Type</th><th style="text-align:right">Points</th></tr></thead><tbody id="results"></tbody></table></div>
   <div class="table-footer"><span id="result-footer"></span> · <a href="busts.csv" id="csv-link">Export CSV</a></div>
@@ -82,6 +121,30 @@ const escapeHTML=(v)=>String(v??'').replace(/[&<>"']/g,(ch)=>({'&':'&amp;','<':'
 const fmt=(x)=>Number(x).toFixed(2);
 const events=Array.isArray(DATA.events)?DATA.events:[];
 const leaders=Array.isArray(DATA.leaderboard)?DATA.leaderboard:[];
+
+const activeWeek=Number(DATA.current_week)||1;
+const thisWeekEntries=events.filter(e=>Number(e.week)===activeWeek).slice().sort(
+ (a,b)=>Number(a.points)-Number(b.points)||String(a.player).localeCompare(String(b.player))
+);
+const currentZeros=thisWeekEntries.filter(e=>Number(e.points)===0).length;
+const currentNegatives=thisWeekEntries.filter(e=>Number(e.points)<0).length;
+$('this-week-label').textContent='WEEK '+activeWeek;
+$('this-week-zeros').textContent='🥚 '+currentZeros+' zero'+(currentZeros===1?'':'es');
+$('this-week-negatives').textContent='💀 '+currentNegatives+' negative'+(currentNegatives===1?'':'s');
+if(!thisWeekEntries.length){
+ $('this-week-results').innerHTML='<div class="week-bust-empty">No starters have recorded zero or negative points from completed NFL games in Week '+activeWeek+' yet.</div>';
+}else{
+ $('this-week-results').innerHTML=thisWeekEntries.map(e=>
+  '<article class="week-bust">'+
+   '<div><div class="week-bust-player">'+(Number(e.points)<0?'💀 ':'🥚 ')+escapeHTML(e.player)+'</div>'+
+    '<div class="week-bust-detail">'+escapeHTML(e.position)+' · '+escapeHTML(e.nfl_team)+'</div></div>'+
+   '<div class="week-bust-team-wrap"><div class="week-bust-team">'+escapeHTML(e.fantasy_team)+'</div>'+
+    '<div class="week-bust-detail">Manager: '+escapeHTML(e.manager)+'</div></div>'+
+   '<div class="week-bust-points '+(Number(e.points)<0?'negative':'zero')+'">'+fmt(e.points)+' <span style="font-size:12px;font-weight:700">pts</span></div>'+
+  '</article>'
+ ).join('');
+}
+
 $('league-name').textContent=DATA.league;
 $('season').textContent=DATA.season;
 $('updated').textContent='Results updated · '+new Date(DATA.updated_at).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'});
