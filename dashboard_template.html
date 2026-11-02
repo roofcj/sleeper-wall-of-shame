@@ -15,6 +15,20 @@ main{padding:32px 0 60px}.stats{display:grid;grid-template-columns:repeat(4,1fr)
 .content-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.65fr);gap:17px;margin-top:29px}.panel{background:var(--card);border:1px solid var(--edge);border-radius:14px;overflow:hidden}.panel-head{padding:22px 22px 18px;display:flex;align-items:flex-start;justify-content:space-between;gap:15px}.section-kicker{color:var(--mute);font-size:11px;letter-spacing:.12em;font-weight:800;text-transform:uppercase}.panel h2{font-size:22px;letter-spacing:-.04em;margin:4px 0 0}.hint{font-size:12px;color:var(--mute);line-height:1.5;margin:5px 0 0}.rank-row{display:grid;grid-template-columns:34px minmax(0,1fr) 56px;gap:12px;align-items:center;padding:13px 21px;border-top:1px solid var(--edge)}.rank-row:first-of-type{border-top:0}.place{color:var(--mute);font-weight:850;font-size:16px}.rank-row.first .place{color:var(--amber)}.team{font-size:14px;font-weight:750;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.manager{font-size:12px;margin-top:3px;color:var(--mute)}.total{font-size:23px;font-weight:800;text-align:right}.rank-row.first .total{color:var(--red)}.bar-bg{height:5px;margin-top:9px;background:#2a3544;border-radius:20px;overflow:hidden}.bar-fg{height:100%;background:linear-gradient(90deg,#fb6475,#f8af76);border-radius:20px}.badge-inline{font-weight:800;font-size:10px;text-transform:uppercase;letter-spacing:.03em;color:var(--red);border:1px solid #6a3644;background:#3b2630;padding:5px 7px;border-radius:7px;white-space:nowrap}.weekly{padding:6px 21px 22px}.weekly-row{display:grid;grid-template-columns:64px minmax(0,1fr) 28px;gap:10px;align-items:center;margin:15px 0}.wk{font-size:12px;color:#c3ccda;font-weight:700}.weekly-track{height:10px;background:#293342;border-radius:20px;overflow:hidden}.weekly-fill{background:linear-gradient(90deg,#47bac4,#ff6879);height:100%;border-radius:20px;min-width:0}.wkcount{font-size:12px;text-align:right;color:#cfd6e1;font-weight:800}
 .results{margin-top:19px}.toolbar{padding:0 22px 21px;display:flex;gap:11px;flex-wrap:wrap;align-items:center}.toolbar label{font-size:12px;color:var(--mute)}.toolbar input,.toolbar select{background:#0f1521;border:1px solid #3b4657;border-radius:8px;color:#e8edf5;padding:10px 12px;font:inherit;font-size:13px;outline:none;max-width:100%;min-width:0}.toolbar input{flex:1;min-width:160px}.toolbar input:focus,.toolbar select:focus{border-color:var(--blue)}.table-scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}th{color:#8d9eb2;text-transform:uppercase;letter-spacing:.075em;font-size:10px;text-align:left;background:#192131;padding:13px 18px;white-space:nowrap}td{border-top:1px solid #293343;padding:15px 18px;vertical-align:middle;white-space:nowrap}td strong{font-size:13px}td small{color:var(--mute);display:block;font-size:11px;margin-top:3px}td.num{text-align:right;font-variant-numeric:tabular-nums;font-weight:850;font-size:14px}td.neg{color:var(--red)}td.zero{color:#ced6e2}.empty{text-align:center;color:var(--mute);font-size:14px;padding:45px 10px}.table-footer{padding:13px 22px;color:var(--mute);border-top:1px solid var(--edge);font-size:12px}.footer{color:var(--mute);font-size:12px;line-height:1.6;padding-top:21px;border-top:1px solid var(--edge)}.footer b{color:#c8d4e3}
 @media(max-width:810px){.stats{grid-template-columns:repeat(2,1fr)}.content-grid,.feature{grid-template-columns:1fr}.brand h1{font-size:clamp(40px,10vw,64px)}}@media(max-width:520px){.wrap{padding:0 16px}.header{padding-top:28px}.hero{align-items:flex-start;flex-direction:column}.update{text-align:left}.stat{padding:18px;min-height:118px}.stat .num{font-size:38px}.panel-head{padding:18px}.rank-row{padding:12px 17px}.toolbar{padding:0 18px 18px}.toolbar select{flex:1}table th,table td{padding:12px 13px}.brand h1{font-size:49px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.share-panel{margin-top:18px;border:1px solid var(--edge);background:linear-gradient(120deg,#192638,#151b28);border-radius:14px;padding:22px}
+.share-panel h2{font-size:22px;letter-spacing:-.04em;margin:6px 0}
+.share-panel p{color:var(--mute);font-size:13px;line-height:1.55;margin:5px 0 14px}
+.share-panel .share-controls{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:12px 0}
+.share-panel select{background:#0f1521;color:var(--text);border:1px solid #3b4657;border-radius:8px;padding:10px;font:inherit;font-size:13px}
+.share-panel textarea{display:block;width:100%;resize:vertical;background:#0e1420;border:1px solid #354258;border-radius:9px;padding:14px;color:#e8edf5;font:inherit;font-size:13px;line-height:1.55;min-height:155px}
+.share-button{border:1px solid #506277;border-radius:9px;padding:11px 15px;color:var(--text);background:#2b3c50;cursor:pointer;font-size:13px;font-weight:800}
+.share-button.primary{background:#d95569;border-color:#d95569;color:#fff}
+.share-button:hover{filter:brightness(1.12)}
+.share-button:focus-visible,.share-panel select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.share-button:disabled{opacity:.5;cursor:not-allowed}
+.share-status{font-size:12px;color:var(--green);min-height:18px}
+
 </style>
 </head>
 <body>
@@ -36,6 +50,16 @@ main{padding:32px 0 60px}.stats{display:grid;grid-template-columns:repeat(4,1fr)
 <section class="feature">
   <article class="callout"><div class="label">🏆 &nbsp;King of the Wall of Shame</div><div class="big" id="leader">Nobody yet</div><div class="detail" id="leader-desc">The scoreboard is waiting.</div></article>
   <article class="callout red"><div class="label">📉 &nbsp;Worst single performance</div><div class="big" id="worst">Nobody yet</div><div class="detail" id="worst-desc">Not a single negative score.</div></article>
+</section>
+
+<section class="share-panel" aria-label="Share results to group text">
+  <div class="section-kicker">Share with your league</div><h2>📱 Text the Wall of Shame</h2>
+  <p>Prepare a weekly recap for your existing iPhone + Android group conversation. The share button opens your phone's sharing menu; <strong>nothing is sent automatically</strong>. Choose your existing group text and tap Send.</p>
+  <div class="share-controls"><label for="share-week">Recap week</label><select id="share-week" aria-label="Select week to share"></select>
+    <button type="button" class="share-button primary" id="share-text">Share to Group Text</button>
+    <button type="button" class="share-button" id="copy-text">Copy Message</button></div>
+  <textarea id="share-preview" readonly aria-label="Prepared group message"></textarea>
+  <div class="share-status" id="share-status" role="status" aria-live="polite"></div>
 </section>
 <section class="content-grid" aria-label="Rankings and weekly trend">
   <article class="panel"><div class="panel-head"><div><div class="section-kicker">All season long</div><h2>Shame leaderboard</h2><p class="hint">One qualifying starter = one mark. Ties favor more negative scores.</p></div><span class="badge-inline">Ranked</span></div><div id="leaders"></div></article>
@@ -91,6 +115,62 @@ function redraw(){
 }
 for(const id of ['week-filter','type-filter','search-filter']) $(id).addEventListener(id==='search-filter'?'input':'change',redraw);
 redraw();
+
+const shareWeeks=weeks.filter(w=>events.some(e=>e.week===w));
+const preferredWeek=shareWeeks.length?Math.max(...shareWeeks):Math.max(1,Number(DATA.current_week)||1);
+$('share-week').innerHTML=weeks.map(w=>'<option value="'+w+'">Week '+w+'</option>').join('');
+$('share-week').value=String(preferredWeek);
+function groupTextMessage(){
+ const week=Number($('share-week').value);
+ const hits=events.filter(e=>Number(e.week)===week).sort((a,b)=>a.points-b.points||String(a.player).localeCompare(String(b.player)));
+ const lines=['💀 '+String(DATA.league||'Fantasy Football')+' — WALL OF SHAME | Week '+week,''];
+ if(hits.length){
+   for(const e of hits.slice(0,12)){
+     lines.push((e.points<0?'💀 ':'🥚 ')+String(e.player)+' ('+fmt(e.points)+' pts) — '+String(e.fantasy_team));
+   }
+   if(hits.length>12)lines.push('...and '+(hits.length-12)+' more on the dashboard.');
+ }else{
+   lines.push('No zero or negative starting scores recorded for this week yet.');
+ }
+ const seasonLeader=leaders.find(l=>l.total>0);
+ if(seasonLeader)lines.push('','👑 Season shame leader: '+String(seasonLeader.fantasy_team)+' ('+seasonLeader.total+' busts)');
+ lines.push('','See the full leaderboard: https://roofcj.github.io/sleeper-wall-of-shame/');
+ return lines.join('\n');
+}
+function updateSharePreview(){
+ $('share-preview').value=groupTextMessage();
+ $('share-status').textContent='';
+}
+$('share-week').addEventListener('change',updateSharePreview);
+async function copyGroupText(){
+ const message=groupTextMessage();
+ try{
+   if(!navigator.clipboard||!navigator.clipboard.writeText)throw new Error('Clipboard unavailable');
+   await navigator.clipboard.writeText(message);
+   $('share-status').textContent='Message copied! Open your existing group text and paste it.';
+ }catch(err){
+   $('share-preview').focus();
+   $('share-preview').select();
+   $('share-status').textContent='Select and copy the prepared message above, then paste it into your group text.';
+ }
+}
+$('copy-text').addEventListener('click',copyGroupText);
+$('share-text').addEventListener('click',async()=>{
+ const message=groupTextMessage();
+ if(!navigator.share){await copyGroupText();return;}
+ try{
+   await navigator.share({text:message});
+   $('share-status').textContent='Choose your existing group chat in Messages and send when ready.';
+ }catch(err){
+   if(err&&err.name==='AbortError')return;
+   $('share-status').textContent='Could not open the sharing menu. Use Copy Message instead.';
+ }
+});
+if(IS_DEMO){
+ $('share-text').disabled=true;
+ $('share-status').textContent='Sharing is disabled in the fictional demo.';
+}else updateSharePreview();
+
 </script>
 </body>
 </html>
