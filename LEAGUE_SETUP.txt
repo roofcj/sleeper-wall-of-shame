@@ -1,0 +1,29 @@
+Sleeper Wall of Shame - Customized for your league
+=================================================
+Sleeper league ID: 1391788553402347520
+Sleeper league page: https://sleeper.com/leagues/1391788553402347520
+
+No league ID configuration is required.
+
+EASY WINDOWS TEST:
+  1. Install Python 3.10+ if not installed.
+  2. Double-click RUN_TRACKER_WINDOWS.bat.
+  3. Your browser opens the real, generated dashboard if the Sleeper API is reachable.
+
+AUTOMATED 24/7 UPDATES:
+  1. Upload files, INCLUDING the hidden .github folder, to a GitHub repository.
+  2. In GitHub, go to Settings -> Pages -> Source: GitHub Actions.
+  3. In Actions -> Update Sleeper Wall of Shame -> Run workflow.
+  4. Confirm both refresh and publish jobs succeed; share the Pages URL.
+  5. Scheduled scans and dashboard deployments run every 30 minutes (best effort).
+
+OPTIONAL DISCORD ALERTS:
+  Add DISCORD_WEBHOOK_URL as GitHub repository Actions secret.
+
+IMPORTANT: This package has not been connected to the live league yet.
+It includes a fictional dashboard preview in docs/demo.html.
+Your real leaderboard appears in docs/index.html after the first successful run.
+
+See README.md for all details and privacy considerations.
+
+See GITHUB_SETUP_GUIDE.md for easy click-by-click setup.
