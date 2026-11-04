@@ -271,6 +271,11 @@
       "position": "QB",
       "team": "TEN"
     },
+    "12524": {
+      "full_name": "Shedeur Sanders",
+      "position": "QB",
+      "team": "CLE"
+    },
     "12526": {
       "full_name": "Tetairoa McMillan",
       "position": "WR",
@@ -465,6 +470,11 @@
       "full_name": "Dak Prescott",
       "position": "QB",
       "team": "DAL"
+    },
+    "4017": {
+      "full_name": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE"
     },
     "4034": {
       "full_name": "Christian McCaffrey",
