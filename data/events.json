@@ -246,6 +246,19 @@
       "roster_id": "2",
       "type": "Zero",
       "week": 8
+    },
+    {
+      "fantasy_team": "Burrow my Dak in her ass",
+      "manager": "Corboner",
+      "nfl_game": "NYJ @ KC",
+      "nfl_team": "NYJ",
+      "player": "Adonai Mitchell",
+      "player_id": "11625",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "1",
+      "type": "Zero",
+      "week": 9
     }
   ],
   "identity": "1391788553402347520:2026"

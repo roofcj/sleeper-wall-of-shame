@@ -247,6 +247,19 @@
       "roster_id": "2",
       "type": "Zero",
       "week": 8
+    },
+    {
+      "fantasy_team": "Burrow my Dak in her ass",
+      "manager": "Corboner",
+      "nfl_game": "NYJ @ KC",
+      "nfl_team": "NYJ",
+      "player": "Adonai Mitchell",
+      "player_id": "11625",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "1",
+      "type": "Zero",
+      "week": 9
     }
   ],
   "leaderboard": [
@@ -259,6 +272,16 @@
       "weeks_with_bust": 3,
       "worst": 0.0,
       "zero": 5
+    },
+    {
+      "fantasy_team": "Burrow my Dak in her ass",
+      "manager": "Corboner",
+      "negative": 0,
+      "roster_id": "1",
+      "total": 3,
+      "weeks_with_bust": 3,
+      "worst": 0.0,
+      "zero": 3
     },
     {
       "fantasy_team": "John Cena’s Make-A-Wish",
@@ -289,16 +312,6 @@
       "weeks_with_bust": 2,
       "worst": -0.1,
       "zero": 1
-    },
-    {
-      "fantasy_team": "Burrow my Dak in her ass",
-      "manager": "Corboner",
-      "negative": 0,
-      "roster_id": "1",
-      "total": 2,
-      "weeks_with_bust": 2,
-      "worst": 0.0,
-      "zero": 2
     },
     {
       "fantasy_team": "St Browns Apostles",
@@ -374,5 +387,5 @@
   "league": "Hoodrich 2: Electric Boogaloo",
   "league_id": "1391788553402347520",
   "season": "2026",
-  "updated_at": "2026-11-03T05:41:29+00:00"
+  "updated_at": "2026-11-08T21:59:54+00:00"
 }
