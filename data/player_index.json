@@ -1,5 +1,5 @@
 {
-  "fetched_on": "2026-11-07",
+  "fetched_on": "2026-11-08",
   "players": {
     "10213": {
       "full_name": "Tre Tucker",
@@ -794,7 +794,7 @@
     "8129": {
       "full_name": "Dameon Pierce",
       "position": "RB",
-      "team": "PHI"
+      "team": null
     },
     "8130": {
       "full_name": "Trey McBride",
