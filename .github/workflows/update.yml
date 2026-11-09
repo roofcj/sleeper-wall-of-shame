@@ -29,6 +29,13 @@ jobs:
           SLEEPER_LEAGUE_ID: ${{ vars.SLEEPER_LEAGUE_ID || '1391788553402347520' }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python tracker.py
+      - name: Generate branded link preview images if missing
+        shell: bash
+        run: |
+          if [[ ! -s docs/social-preview.png || ! -s docs/apple-touch-icon.png ]]; then
+            python -m pip install --quiet Pillow
+            python generate_social_preview.py
+          fi
       - name: Save updated leaderboard and dashboard
         run: |
           git config user.name "github-actions[bot]"
