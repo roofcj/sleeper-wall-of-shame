@@ -4,7 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0c111c">
-<meta name="description" content="Fantasy football zero-point and negative-point starter tracker powered by Sleeper.">
+<meta name="description" content="Hoodrich Fantasy Wall of Shame: this week's zero-point and negative-point starters, season rankings, and the league's worst performances.">
+<link rel="canonical" href="https://roofcj.github.io/sleeper-wall-of-shame/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hoodrich 2: Electric Boogaloo">
+<meta property="og:title" content="Fantasy Wall of Shame">
+<meta property="og:description" content="Who put up a goose egg? See this week's zero and negative starters, plus the full season shame leaderboard.">
+<meta property="og:url" content="https://roofcj.github.io/sleeper-wall-of-shame/">
+<meta property="og:image" content="https://roofcj.github.io/sleeper-wall-of-shame/social-preview.png">
+<meta property="og:image:secure_url" content="https://roofcj.github.io/sleeper-wall-of-shame/social-preview.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Hoodrich Fantasy Wall of Shame — zero points, negative legends.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fantasy Wall of Shame">
+<meta name="twitter:description" content="Zero-point starters. Negative scores. Season-long shame.">
+<meta name="twitter:image" content="https://roofcj.github.io/sleeper-wall-of-shame/social-preview.png">
+<link rel="icon" type="image/png" sizes="180x180" href="https://roofcj.github.io/sleeper-wall-of-shame/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://roofcj.github.io/sleeper-wall-of-shame/apple-touch-icon.png">
 <title>Wall of Shame · __PAGE_TITLE__</title>
 <style>
 :root{color-scheme:dark;--bg:#0b0f19;--card:#151b28;--card-hi:#1a2232;--edge:#2a3444;--text:#f3f5f9;--mute:#91a0b3;--red:#ff6677;--amber:#ffc267;--blue:#7ce3e9;--green:#9ae6bb;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-synthesis:none}
@@ -197,7 +215,7 @@ function groupTextMessage(){
  }
  const seasonLeader=leaders.find(l=>l.total>0);
  if(seasonLeader)lines.push('','👑 Season shame leader: '+String(seasonLeader.fantasy_team)+' ('+seasonLeader.total+' busts)');
- lines.push('','See the full leaderboard: https://roofcj.github.io/sleeper-wall-of-shame/');
+ lines.push('','See the full leaderboard: https://roofcj.github.io/sleeper-wall-of-shame/?v=2');
  return lines.join('\n');
 }
 function updateSharePreview(){
