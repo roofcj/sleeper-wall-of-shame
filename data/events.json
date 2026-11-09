@@ -259,6 +259,19 @@
       "roster_id": "1",
       "type": "Zero",
       "week": 9
+    },
+    {
+      "fantasy_team": "Penix Tuten",
+      "manager": "ariem",
+      "nfl_game": "HOU @ LAC",
+      "nfl_team": "LAC",
+      "player": "Ladd McConkey",
+      "player_id": "11635",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "3",
+      "type": "Zero",
+      "week": 9
     }
   ],
   "identity": "1391788553402347520:2026"

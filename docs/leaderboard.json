@@ -260,6 +260,19 @@
       "roster_id": "1",
       "type": "Zero",
       "week": 9
+    },
+    {
+      "fantasy_team": "Penix Tuten",
+      "manager": "ariem",
+      "nfl_game": "HOU @ LAC",
+      "nfl_team": "LAC",
+      "player": "Ladd McConkey",
+      "player_id": "11635",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "3",
+      "type": "Zero",
+      "week": 9
     }
   ],
   "leaderboard": [
@@ -358,10 +371,10 @@
       "manager": "ariem",
       "negative": 0,
       "roster_id": "3",
-      "total": 0,
-      "weeks_with_bust": 0,
-      "worst": null,
-      "zero": 0
+      "total": 1,
+      "weeks_with_bust": 1,
+      "worst": 0.0,
+      "zero": 1
     },
     {
       "fantasy_team": "Pukake Party",
@@ -387,5 +400,5 @@
   "league": "Hoodrich 2: Electric Boogaloo",
   "league_id": "1391788553402347520",
   "season": "2026",
-  "updated_at": "2026-11-08T21:59:54+00:00"
+  "updated_at": "2026-11-09T00:47:59+00:00"
 }

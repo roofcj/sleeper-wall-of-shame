@@ -1,5 +1,5 @@
 {
-  "fetched_on": "2026-11-08",
+  "fetched_on": "2026-11-09",
   "players": {
     "10213": {
       "full_name": "Tre Tucker",
@@ -1004,7 +1004,7 @@
     "9757": {
       "full_name": "Kendre Miller",
       "position": "RB",
-      "team": "NO"
+      "team": null
     },
     "9758": {
       "full_name": "C.J. Stroud",
