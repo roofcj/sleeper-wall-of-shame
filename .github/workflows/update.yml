@@ -2,6 +2,14 @@ name: Update Sleeper Wall of Shame
 
 on:
   workflow_dispatch:
+  # Publish code and design edits without waiting for the next scheduled scan.
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard_template.html'
+      - 'tracker.py'
+      - 'generate_social_preview.py'
+      - '.github/workflows/update.yml'
   # Twice per hour (GitHub may delay scheduled runs).
   schedule:
     - cron: '*/30 * * * *'
