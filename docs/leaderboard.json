@@ -249,6 +249,19 @@
       "week": 8
     },
     {
+      "fantasy_team": "St Browns Apostles",
+      "manager": "Roofcj",
+      "nfl_game": "BUF @ MIN",
+      "nfl_team": "MIN",
+      "player": "Carson Wentz",
+      "player_id": "3161",
+      "points": -0.76,
+      "position": "QB",
+      "roster_id": "7",
+      "type": "Negative",
+      "week": 9
+    },
+    {
       "fantasy_team": "Burrow my Dak in her ass",
       "manager": "Corboner",
       "nfl_game": "NYJ @ KC",
@@ -285,6 +298,16 @@
       "weeks_with_bust": 3,
       "worst": 0.0,
       "zero": 5
+    },
+    {
+      "fantasy_team": "St Browns Apostles",
+      "manager": "Roofcj",
+      "negative": 1,
+      "roster_id": "7",
+      "total": 3,
+      "weeks_with_bust": 3,
+      "worst": -0.76,
+      "zero": 2
     },
     {
       "fantasy_team": "Burrow my Dak in her ass",
@@ -325,16 +348,6 @@
       "weeks_with_bust": 2,
       "worst": -0.1,
       "zero": 1
-    },
-    {
-      "fantasy_team": "St Browns Apostles",
-      "manager": "Roofcj",
-      "negative": 0,
-      "roster_id": "7",
-      "total": 2,
-      "weeks_with_bust": 2,
-      "worst": 0.0,
-      "zero": 2
     },
     {
       "fantasy_team": "Despicable Maye",
@@ -400,5 +413,5 @@
   "league": "Hoodrich 2: Electric Boogaloo",
   "league_id": "1391788553402347520",
   "season": "2026",
-  "updated_at": "2026-11-09T00:47:59+00:00"
+  "updated_at": "2026-11-10T04:40:59+00:00"
 }

@@ -248,6 +248,19 @@
       "week": 8
     },
     {
+      "fantasy_team": "St Browns Apostles",
+      "manager": "Roofcj",
+      "nfl_game": "BUF @ MIN",
+      "nfl_team": "MIN",
+      "player": "Carson Wentz",
+      "player_id": "3161",
+      "points": -0.76,
+      "position": "QB",
+      "roster_id": "7",
+      "type": "Negative",
+      "week": 9
+    },
+    {
       "fantasy_team": "Burrow my Dak in her ass",
       "manager": "Corboner",
       "nfl_game": "NYJ @ KC",
