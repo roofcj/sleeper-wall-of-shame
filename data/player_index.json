@@ -174,7 +174,7 @@
     "1166": {
       "full_name": "Kirk Cousins",
       "position": "QB",
-      "team": "LV"
+      "team": "MIN"
     },
     "11783": {
       "full_name": "Ryan Flournoy",
@@ -404,7 +404,7 @@
     "1479": {
       "full_name": "Keenan Allen",
       "position": "WR",
-      "team": "IND"
+      "team": "SF"
     },
     "1737": {
       "full_name": "Case Keenum",
@@ -896,6 +896,11 @@
       "position": "QB",
       "team": "SF"
     },
+    "8210": {
+      "full_name": "Chig Okonkwo",
+      "position": "TE",
+      "team": "WAS"
+    },
     "8228": {
       "full_name": "Jaylen Warren",
       "position": "RB",
@@ -969,7 +974,7 @@
     "9500": {
       "full_name": "Josh Downs",
       "position": "WR",
-      "team": "IND"
+      "team": "KC"
     },
     "9501": {
       "full_name": "DeMario Douglas",
