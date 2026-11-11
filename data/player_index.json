@@ -651,6 +651,11 @@
       "position": "RB",
       "team": "TEN"
     },
+    "5995": {
+      "full_name": "Justice Hill",
+      "position": "RB",
+      "team": "BAL"
+    },
     "6130": {
       "full_name": "Devin Singletary",
       "position": "RB",
@@ -1000,6 +1005,11 @@
       "full_name": "Aaron Rodgers",
       "position": "QB",
       "team": "PIT"
+    },
+    "9753": {
+      "full_name": "Zach Charbonnet",
+      "position": "RB",
+      "team": "SEA"
     },
     "9754": {
       "full_name": "Quentin Johnston",
