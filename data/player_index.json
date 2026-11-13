@@ -1,5 +1,5 @@
 {
-  "fetched_on": "2026-11-12",
+  "fetched_on": "2026-11-13",
   "players": {
     "10213": {
       "full_name": "Tre Tucker",
@@ -170,6 +170,11 @@
       "full_name": "Jalen Coker",
       "position": "WR",
       "team": "CAR"
+    },
+    "11647": {
+      "full_name": "Kimani Vidal",
+      "position": "RB",
+      "team": "LAC"
     },
     "1166": {
       "full_name": "Kirk Cousins",
