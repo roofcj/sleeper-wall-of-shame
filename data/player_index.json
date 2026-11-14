@@ -1,5 +1,5 @@
 {
-  "fetched_on": "2026-11-13",
+  "fetched_on": "2026-11-14",
   "players": {
     "10213": {
       "full_name": "Tre Tucker",
@@ -535,6 +535,11 @@
       "full_name": "Patrick Mahomes",
       "position": "QB",
       "team": "KC"
+    },
+    "4177": {
+      "full_name": "Mack Hollins",
+      "position": "WR",
+      "team": "NE"
     },
     "4199": {
       "full_name": "Aaron Jones Sr.",
