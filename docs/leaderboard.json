@@ -286,6 +286,19 @@
       "roster_id": "3",
       "type": "Zero",
       "week": 9
+    },
+    {
+      "fantasy_team": "Love Deez Njigbas",
+      "manager": "coledochod",
+      "nfl_game": "BUF @ NYJ",
+      "nfl_team": "NYJ",
+      "player": "Omar Cooper Jr.",
+      "player_id": "13276",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "2",
+      "type": "Zero",
+      "week": 10
     }
   ],
   "leaderboard": [
@@ -350,20 +363,20 @@
       "zero": 1
     },
     {
-      "fantasy_team": "Despicable Maye",
-      "manager": "benjtu",
-      "negative": 0,
-      "roster_id": "6",
-      "total": 1,
-      "weeks_with_bust": 1,
-      "worst": 0.0,
-      "zero": 1
-    },
-    {
       "fantasy_team": "Love Deez Njigbas",
       "manager": "coledochod",
       "negative": 0,
       "roster_id": "2",
+      "total": 2,
+      "weeks_with_bust": 2,
+      "worst": 0.0,
+      "zero": 2
+    },
+    {
+      "fantasy_team": "Despicable Maye",
+      "manager": "benjtu",
+      "negative": 0,
+      "roster_id": "6",
       "total": 1,
       "weeks_with_bust": 1,
       "worst": 0.0,
@@ -413,5 +426,5 @@
   "league": "Hoodrich 2: Electric Boogaloo",
   "league_id": "1391788553402347520",
   "season": "2026",
-  "updated_at": "2026-11-10T05:41:59+00:00"
+  "updated_at": "2026-11-15T22:01:35+00:00"
 }

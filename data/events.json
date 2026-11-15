@@ -285,6 +285,19 @@
       "roster_id": "3",
       "type": "Zero",
       "week": 9
+    },
+    {
+      "fantasy_team": "Love Deez Njigbas",
+      "manager": "coledochod",
+      "nfl_game": "BUF @ NYJ",
+      "nfl_team": "NYJ",
+      "player": "Omar Cooper Jr.",
+      "player_id": "13276",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "2",
+      "type": "Zero",
+      "week": 10
     }
   ],
   "identity": "1391788553402347520:2026"
