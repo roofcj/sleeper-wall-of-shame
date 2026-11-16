@@ -298,6 +298,19 @@
       "roster_id": "2",
       "type": "Zero",
       "week": 10
+    },
+    {
+      "fantasy_team": "Jcarp12",
+      "manager": "Jcarp12",
+      "nfl_game": "SF @ DAL",
+      "nfl_team": "SF",
+      "player": "Demarcus Robinson",
+      "player_id": "3286",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "5",
+      "type": "Zero",
+      "week": 10
     }
   ],
   "identity": "1391788553402347520:2026"

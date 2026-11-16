@@ -299,6 +299,19 @@
       "roster_id": "2",
       "type": "Zero",
       "week": 10
+    },
+    {
+      "fantasy_team": "Jcarp12",
+      "manager": "Jcarp12",
+      "nfl_game": "SF @ DAL",
+      "nfl_team": "SF",
+      "player": "Demarcus Robinson",
+      "player_id": "3286",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "5",
+      "type": "Zero",
+      "week": 10
     }
   ],
   "leaderboard": [
@@ -311,6 +324,16 @@
       "weeks_with_bust": 3,
       "worst": 0.0,
       "zero": 5
+    },
+    {
+      "fantasy_team": "Jcarp12",
+      "manager": "Jcarp12",
+      "negative": 1,
+      "roster_id": "5",
+      "total": 3,
+      "weeks_with_bust": 3,
+      "worst": -0.7,
+      "zero": 2
     },
     {
       "fantasy_team": "St Browns Apostles",
@@ -341,16 +364,6 @@
       "weeks_with_bust": 3,
       "worst": 0.0,
       "zero": 3
-    },
-    {
-      "fantasy_team": "Jcarp12",
-      "manager": "Jcarp12",
-      "negative": 1,
-      "roster_id": "5",
-      "total": 2,
-      "weeks_with_bust": 2,
-      "worst": -0.7,
-      "zero": 1
     },
     {
       "fantasy_team": "Lisan al Caleb",
@@ -426,5 +439,5 @@
   "league": "Hoodrich 2: Electric Boogaloo",
   "league_id": "1391788553402347520",
   "season": "2026",
-  "updated_at": "2026-11-15T22:01:35+00:00"
+  "updated_at": "2026-11-16T00:49:05+00:00"
 }
