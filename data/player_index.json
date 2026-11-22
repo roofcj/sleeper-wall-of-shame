@@ -1,5 +1,5 @@
 {
-  "fetched_on": "2026-11-21",
+  "fetched_on": "2026-11-22",
   "players": {
     "10213": {
       "full_name": "Tre Tucker",
@@ -699,7 +699,7 @@
     "5870": {
       "full_name": "Daniel Jones",
       "position": "QB",
-      "team": "IND"
+      "team": null
     },
     "5872": {
       "full_name": "Deebo Samuel Sr.",
