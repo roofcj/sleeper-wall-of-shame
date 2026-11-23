@@ -325,6 +325,19 @@
       "roster_id": "11",
       "type": "Zero",
       "week": 11
+    },
+    {
+      "fantasy_team": "St Browns Apostles",
+      "manager": "Roofcj",
+      "nfl_game": "LV @ DEN",
+      "nfl_team": "DEN",
+      "player": "Courtland Sutton",
+      "player_id": "5045",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "7",
+      "type": "Zero",
+      "week": 11
     }
   ],
   "leaderboard": [
@@ -337,6 +350,16 @@
       "weeks_with_bust": 3,
       "worst": 0.0,
       "zero": 5
+    },
+    {
+      "fantasy_team": "St Browns Apostles",
+      "manager": "Roofcj",
+      "negative": 1,
+      "roster_id": "7",
+      "total": 4,
+      "weeks_with_bust": 4,
+      "worst": -0.76,
+      "zero": 3
     },
     {
       "fantasy_team": "John Cena’s Make-A-Wish",
@@ -356,16 +379,6 @@
       "total": 3,
       "weeks_with_bust": 3,
       "worst": -0.7,
-      "zero": 2
-    },
-    {
-      "fantasy_team": "St Browns Apostles",
-      "manager": "Roofcj",
-      "negative": 1,
-      "roster_id": "7",
-      "total": 3,
-      "weeks_with_bust": 3,
-      "worst": -0.76,
       "zero": 2
     },
     {
@@ -452,5 +465,5 @@
   "league": "Hoodrich 2: Electric Boogaloo",
   "league_id": "1391788553402347520",
   "season": "2026",
-  "updated_at": "2026-11-23T00:06:55+00:00"
+  "updated_at": "2026-11-23T01:47:23+00:00"
 }

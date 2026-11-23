@@ -324,6 +324,19 @@
       "roster_id": "11",
       "type": "Zero",
       "week": 11
+    },
+    {
+      "fantasy_team": "St Browns Apostles",
+      "manager": "Roofcj",
+      "nfl_game": "LV @ DEN",
+      "nfl_team": "DEN",
+      "player": "Courtland Sutton",
+      "player_id": "5045",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "7",
+      "type": "Zero",
+      "week": 11
     }
   ],
   "identity": "1391788553402347520:2026"
