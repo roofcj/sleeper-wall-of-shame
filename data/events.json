@@ -311,6 +311,19 @@
       "roster_id": "5",
       "type": "Zero",
       "week": 10
+    },
+    {
+      "fantasy_team": "John Cena’s Make-A-Wish",
+      "manager": "AuntHelga",
+      "nfl_game": "NYJ @ LAC",
+      "nfl_team": "LAC",
+      "player": "Oronde Gadsden",
+      "player_id": "12493",
+      "points": 0.0,
+      "position": "TE",
+      "roster_id": "11",
+      "type": "Zero",
+      "week": 11
     }
   ],
   "identity": "1391788553402347520:2026"

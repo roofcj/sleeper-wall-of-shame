@@ -312,6 +312,19 @@
       "roster_id": "5",
       "type": "Zero",
       "week": 10
+    },
+    {
+      "fantasy_team": "John Cena’s Make-A-Wish",
+      "manager": "AuntHelga",
+      "nfl_game": "NYJ @ LAC",
+      "nfl_team": "LAC",
+      "player": "Oronde Gadsden",
+      "player_id": "12493",
+      "points": 0.0,
+      "position": "TE",
+      "roster_id": "11",
+      "type": "Zero",
+      "week": 11
     }
   ],
   "leaderboard": [
@@ -324,6 +337,16 @@
       "weeks_with_bust": 3,
       "worst": 0.0,
       "zero": 5
+    },
+    {
+      "fantasy_team": "John Cena’s Make-A-Wish",
+      "manager": "AuntHelga",
+      "negative": 0,
+      "roster_id": "11",
+      "total": 4,
+      "weeks_with_bust": 4,
+      "worst": 0.0,
+      "zero": 4
     },
     {
       "fantasy_team": "Jcarp12",
@@ -350,16 +373,6 @@
       "manager": "Corboner",
       "negative": 0,
       "roster_id": "1",
-      "total": 3,
-      "weeks_with_bust": 3,
-      "worst": 0.0,
-      "zero": 3
-    },
-    {
-      "fantasy_team": "John Cena’s Make-A-Wish",
-      "manager": "AuntHelga",
-      "negative": 0,
-      "roster_id": "11",
       "total": 3,
       "weeks_with_bust": 3,
       "worst": 0.0,
@@ -439,5 +452,5 @@
   "league": "Hoodrich 2: Electric Boogaloo",
   "league_id": "1391788553402347520",
   "season": "2026",
-  "updated_at": "2026-11-17T05:50:20+00:00"
+  "updated_at": "2026-11-23T00:06:55+00:00"
 }
