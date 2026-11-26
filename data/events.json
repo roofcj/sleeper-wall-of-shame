@@ -337,6 +337,19 @@
       "roster_id": "7",
       "type": "Zero",
       "week": 11
+    },
+    {
+      "fantasy_team": "Burrow my Dak in her ass",
+      "manager": "Corboner",
+      "nfl_game": "CHI @ DET",
+      "nfl_team": "CHI",
+      "player": "Colston Loveland",
+      "player_id": "12517",
+      "points": -1.0,
+      "position": "TE",
+      "roster_id": "1",
+      "type": "Negative",
+      "week": 12
     }
   ],
   "identity": "1391788553402347520:2026"
