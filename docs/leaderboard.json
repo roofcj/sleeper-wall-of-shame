@@ -351,6 +351,19 @@
       "roster_id": "1",
       "type": "Negative",
       "week": 12
+    },
+    {
+      "fantasy_team": "Jcarp12",
+      "manager": "Jcarp12",
+      "nfl_game": "PHI @ DAL",
+      "nfl_team": "DAL",
+      "player": "Ryan Flournoy",
+      "player_id": "11783",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "5",
+      "type": "Zero",
+      "week": 12
     }
   ],
   "leaderboard": [
@@ -375,6 +388,16 @@
       "zero": 3
     },
     {
+      "fantasy_team": "Jcarp12",
+      "manager": "Jcarp12",
+      "negative": 1,
+      "roster_id": "5",
+      "total": 4,
+      "weeks_with_bust": 4,
+      "worst": -0.7,
+      "zero": 3
+    },
+    {
       "fantasy_team": "St Browns Apostles",
       "manager": "Roofcj",
       "negative": 1,
@@ -393,16 +416,6 @@
       "weeks_with_bust": 4,
       "worst": 0.0,
       "zero": 4
-    },
-    {
-      "fantasy_team": "Jcarp12",
-      "manager": "Jcarp12",
-      "negative": 1,
-      "roster_id": "5",
-      "total": 3,
-      "weeks_with_bust": 3,
-      "worst": -0.7,
-      "zero": 2
     },
     {
       "fantasy_team": "Lisan al Caleb",
@@ -478,5 +491,5 @@
   "league": "Hoodrich 2: Electric Boogaloo",
   "league_id": "1391788553402347520",
   "season": "2026",
-  "updated_at": "2026-11-26T21:42:20+00:00"
+  "updated_at": "2026-11-27T02:14:44+00:00"
 }

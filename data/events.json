@@ -350,6 +350,19 @@
       "roster_id": "1",
       "type": "Negative",
       "week": 12
+    },
+    {
+      "fantasy_team": "Jcarp12",
+      "manager": "Jcarp12",
+      "nfl_game": "PHI @ DAL",
+      "nfl_team": "DAL",
+      "player": "Ryan Flournoy",
+      "player_id": "11783",
+      "points": 0.0,
+      "position": "WR",
+      "roster_id": "5",
+      "type": "Zero",
+      "week": 12
     }
   ],
   "identity": "1391788553402347520:2026"
