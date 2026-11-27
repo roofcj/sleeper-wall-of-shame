@@ -1,5 +1,5 @@
 {
-  "fetched_on": "2026-11-26",
+  "fetched_on": "2026-11-27",
   "players": {
     "10213": {
       "full_name": "Tre Tucker",
@@ -1109,7 +1109,7 @@
     "96": {
       "full_name": "Aaron Rodgers",
       "position": "QB",
-      "team": "PIT"
+      "team": null
     },
     "9753": {
       "full_name": "Zach Charbonnet",
